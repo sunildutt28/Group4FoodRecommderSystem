@@ -137,7 +137,7 @@ data_path = os.path.join(script_dir, "irish_restaurants_meals_final.csv")
 recommender = RestaurantRecommender(data_path)
 
 # Initialize your YOLO model here if it's a class or needs loading
-# Example:
+# Eg:
 yolo_model = YOLO("./weights/best.pt")
 
 
